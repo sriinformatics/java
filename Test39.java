@@ -9,11 +9,16 @@ public class Test39
 		a[2]=30;
 		a[3]=40;
 		a[4]=50;
-int i;
+int i,s=0;
 for(i=0;i<a.length;i++)
 {
 	System.out.println("\t"+a[i]);
+	s=s+a[i];
 }
+av=s/5;
+		System.out.println("Sum="+s);
+		System.out.println("Average="+av);
+		
 	}
 
 }
